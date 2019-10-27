@@ -11,7 +11,7 @@ socketList = []
 # def sendCmd(cmd):
 #     print("Send command......")
 #     for sock in socketList:
-#         sock.send(cmd.encode = ('UTF-8'))
+#         sock.send(cmd.encode = ('utf-8'))
 
 def sendCmd(cmd):
     print("Send command......")
