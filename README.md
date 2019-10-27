@@ -36,13 +36,13 @@ TCP是主机对主机层的传输控制协议，提供可靠的连接服务，�
 ## 工具介绍 
 Scapy是一个交互式数据包处理程序，可以用来发送、嗅探、解析和伪造网络数据包。本文环境为Ubuntu18.04LTS Desktop, VBox。可以使用apt或者pip安装：
 ```
-    # pip安装推荐推荐虚拟环境安装，安全也要讲究低耦合
-    pip3 install scapy
-    # 或者
-    sudo apt-get install python-scapy
-    # 运行scapy需要sudo权限
-    sudo scapy
-    # 运行会出现一些警告信息，先不用管
+# pip安装推荐推荐虚拟环境安装，安全也要讲究低耦合
+pip3 install scapy
+# 或者
+sudo apt-get install python-scapy
+# 运行scapy需要sudo权限
+sudo scapy
+ # 运行会出现一些警告信息，先不用管
 ```
 
 ### Tips 踩坑小提示：
